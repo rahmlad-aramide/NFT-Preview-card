@@ -58,16 +58,16 @@
   height: 260px;
   border-radius: 10px;
 }
-h2{
+h1{
     padding-bottom: 1rem;
     font-family: "Outfit";
     font-weight: 500;
 }
-h2,
+h1,
 .name {
   color: hsl(0, 0%, 100%);
 }
-h2:hover{
+h1:hover{
     color: hsl(178, 100%, 50%);
 }
 .name:hover{

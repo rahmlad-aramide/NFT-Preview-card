@@ -23,16 +23,8 @@
 .hero {
   padding-bottom: 1rem;
 }
-/* .image-box:hover{
-    width: 260px;
-  height: 260px;
-    background-color: hsl(178, 100%, 50%);
-    color: hsla(178, 100%, 50%, 0.7);
-} */
-.hero-img{
-    width: auto;
-  height: 260px;
-  border-radius: 10px;
+.icon-view{
+    font-size: 3px;
 }
 .overlay{
     background-color: rgba(0, 255, 247, 0.5);
@@ -46,12 +38,22 @@
     opacity: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 .overlay:hover{
     opacity: 1;
     cursor: pointer;
+}
+/* .image-box:hover{
+    width: 260px;
+  height: 260px;
+    background-color: hsl(178, 100%, 50%);
+    color: hsla(178, 100%, 50%, 0.7);
+} */
+.hero-img{
+    width: auto;
+  height: 260px;
+  border-radius: 10px;
 }
 .image-box {
   width: auto;
